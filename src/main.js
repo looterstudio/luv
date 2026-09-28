@@ -422,7 +422,7 @@ function openAboutWindow() {
       <p class="about-foot">always early, never wrong.</p>
     </div>
   `;
-  const win = createWindow('about', 'Snowball', 'S', content, { width: '560px', height: '640px' });
+  const win = createWindow('about', '', '<img src="snowball.png">', content, { width: '560px', height: '640px' });
   win.querySelectorAll('[data-open-service]').forEach((c) => c.addEventListener('click', () => openServiceWindow(c.dataset.openService)));
   win.querySelectorAll('[data-open-url]').forEach((c) => c.addEventListener('click', () => window.open(c.dataset.openUrl, '_blank', 'noopener')));
 }
