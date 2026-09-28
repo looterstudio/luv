@@ -13,7 +13,7 @@ export const clients = [
   { id: 'vice-city', name: 'Vice City', icon: '🌴', iconType: 'image', iconSrc: 'icons/vicecity.png', isSpecial: true, action: 'game' },
   { id: 'tibia', name: 'Tibia', icon: '⚔️', iconType: 'image', iconSrc: 'icons/tibia.png', isSpecial: true, action: 'game' },
   // ── clients
-  { id: 'villarroel', name: 'Clínica Villarroel', icon: '🦷', iconType: 'image', iconSrc: 'icons/villarroel.png', iconClass: 'app', url: 'https://clinica-villarroel.vercel.app', description: 'Clínica Odontológica Villarroel, Cochabamba. A full clinic management system: database, clinical records and odontograms, appointments, payments, document storage, a patient portal, an AI assistant, and the website on top.', services: ['Software', 'Database', 'Management system', 'Website', 'AI'] },
+
   { id: 'client-002', name: 'Client 002', icon: '📁', iconType: 'folder', description: 'In progress.', services: ['soon'] },
   { id: 'client-003', name: 'Client 003', icon: '📁', iconType: 'folder', description: 'In progress.', services: ['soon'] },
   { id: 'start', name: 'Start a project', icon: '✉️', iconType: 'image', iconSrc: 'icons/mail.svg', isSpecial: true, action: 'contact' },
