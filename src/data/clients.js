@@ -6,7 +6,7 @@
 export const clients = [
   // ── system
   { id: 'looterio', name: 'Looterio', icon: '🌐', iconType: 'image', iconSrc: 'icons/looterio.png', iconClass: 'raw', href: 'https://looterstudio.xyz/looterio/' },
-  { id: 'louv', name: 'LUV Agency', icon: '♥', iconType: 'image', iconSrc: 'luv-logo.svg', isSpecial: true, action: 'about' },
+  { id: 'louv', name: 'Snowball', icon: 'S', iconType: 'image', iconSrc: 'snowball.png', isSpecial: true, action: 'about' },
   { id: 'mi-pc', name: 'My Computer', icon: '🖥️', iconType: 'image', iconSrc: 'icons/computer.svg', isSpecial: true, action: 'about' },
   { id: 'papelera', name: 'Recycle Bin', icon: '🗑️', iconType: 'image', iconSrc: 'icons/bin.svg', isSpecial: true, action: 'recycle' },
   // ── games (they never open, like the good old days)
